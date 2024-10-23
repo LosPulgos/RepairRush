@@ -64,7 +64,7 @@ def effectuer_entretien(liste_machines):
         if machine.etat < 50:  # Entretien uniquement si l'état est en jaune ou rouge
             machine.entretenir()
 
-# Création des machines
+# Création des machines (Noms encore à trouver)
 machines = [
     Tour("Tour"),
     Tour("Tour Avancé"),
@@ -73,6 +73,7 @@ machines = [
     Perceuse("Perceuse"),
     Perceuse("Perceuse Avancée")
 ]
+
 
 # Améliorations spécifiques des machines
 machines[1].cout_achat = 25000      # TourAvancé
