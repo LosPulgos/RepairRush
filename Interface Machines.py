@@ -1,6 +1,8 @@
 import tkinter as tk
 from tkinter import Canvas
 
+#CARRE NOIR, A REMPLACER PAR DES IMAGES ENCORE
+
 class InterfaceGraphique:
     def __init__(self, root, machines):
         self.root = root
